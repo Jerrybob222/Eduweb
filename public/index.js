@@ -71,15 +71,3 @@ app.listen(port, () => {
 
 
 
-
-
-
-
-
-
-const fillButton = document.getElementById("sj-fill-button");
-
-fillButton.addEventListener("click", () => {
-  address.value = "algebra lesson";
-  form.requestSubmit();
-});
